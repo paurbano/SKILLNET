@@ -1,0 +1,7 @@
+# Compiled, VS files and virtual enviroment
+__pycache__/
+.vscode/
+venv/
+
+# Bd
+citas.db

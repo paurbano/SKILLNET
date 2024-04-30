@@ -34,7 +34,7 @@ def update_paciente(tipoid, numid, nombre, telefono, id):
 def get_doctores():
     db = get_db()
     cursor = db.cursor()
-    query = "SELECT id, nombre, especialidad FROM doctores"
+    query = "SELECT id, nombredoctor, especialidad FROM doctores"
     cursor.execute(query)
     return cursor.fetchall()
 
